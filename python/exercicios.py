@@ -1,5 +1,5 @@
 import math
-# #### Números de Ponto Flutuante (`float`)
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 base=int(input('Digite o valor da base: '))
 expoente=int(input('Digite o valor do expoente: '))
@@ -11,11 +11,14 @@ raio_circ=float(input('Digite o raio: '))
 area_circ= math.pi * raio_circ ** 2
 print(f'O valor da area do circulo é {area_circ:.2f}') #o :.2f limita o resutlado a duas casas decimais
 
-# #### Strings (`str`)
-
 # 11. Escreva um programa que receba uma string do usuário e a converta para maiúsculas.
+nome=input('Digite seu nome: ')
+print(nome.upper())
+
 # 12. Crie um programa que receba o nome completo do usuário e imprima o nome com todas as letras minúsculas.
-# 13. Desenvolva um programa que peça ao usuário para inserir uma frase e, em seguida, imprima esta frase sem espaços em branco no início e no final.
+nome=input('Digite seu nome completo: ')
+print(nome.lower())
+
 # 14. Faça um programa que peça ao usuário para digitar uma data no formato "dd/mm/aaaa" e, em seguida, imprima o dia, o mês e o ano separadamente.
 data= input('Digite a data: ')
 dataform=data.split('/')
@@ -23,12 +26,14 @@ dia = dataform[0]
 mes = dataform[1]
 ano = dataform[2]
 print(f'o dia é {dia}, o mes é {mes} e o ano é {ano}')
-
 # 15. Escreva um programa que concatene duas strings fornecidas pelo usuário.
+nome=input('nome: ')
+sobrenome=input('sobrenome: ')
+print(nome + ' '+ sobrenome)
 
 # #### try-except e if
 
-# 21: Conversor de Temperatura
+# 21: Conversor de Temperaturas
 # 22: Verificador de Palíndromo
 # 23: Calculadora Simples
 # 24: Classificador de Números
