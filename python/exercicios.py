@@ -1,3 +1,4 @@
+import math
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
@@ -13,6 +14,10 @@
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+raio_circ=float(input('Digite o raio: '))
+area_circ= math.pi * raio_circ ** 2
+
+print(f'O valor da area do circulo é {area_circ:.2f}') #o :.2f limita o resutlado a duas casas decimais
 
 # #### Strings (`str`)
 
